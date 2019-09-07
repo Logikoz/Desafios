@@ -1,18 +1,10 @@
 using System;
 
-namespace FizzBuzz
+namespace Logikoz.Desafios
 {
-    class Program
+    class FizzBuzz
     {
-        static void Main(string[] args)
-        {
-            while (true)
-            {
-                Console.WriteLine(FizzBuzz(Convert.ToInt32(Console.ReadLine())));
-            }
-        }
-
-        static string FizzBuzz(int value)
+        public static string Fizzbuzz(int value)
         {
             string[] a = new[] { "Fizz", "Buzz", "FizzBuzz", value.ToString() };
 
