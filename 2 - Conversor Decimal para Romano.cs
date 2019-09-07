@@ -1,4 +1,29 @@
-namespace Desafios
+/*
+Romanjs [Ou na linguagem que bem enteder] 
+
+Crie um conversor de números decimais para algarismos romanos
+
+Ex: 
+Ao preencher:
+
+1 
+Deve exibir:
+I
+---
+2 
+Deve exibir:
+II
+---
+3 
+Deve exibir:
+III
+---
+4
+Deve exibir:
+IV
+*/
+
+namespace Logikoz.Desafios
 {
     class Decimal2Roman
     {
